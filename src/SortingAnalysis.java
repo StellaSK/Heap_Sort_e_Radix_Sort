@@ -27,7 +27,7 @@ public class SortingAnalysis {
                     pw.println("HeapSort," + size + "," + run + "," +
                             heapResult.time + "," + heapResult.swaps + "," + heapResult.iterations);
 
-                    // Verificar ordenação (opcional para grandes conjuntos)
+                    // Verificar ordenação
                     if (!isSorted(data)) {
                         System.err.println("Heap Sort failed for size " + size + ", run " + run);
                     }
